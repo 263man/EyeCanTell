@@ -1,16 +1,7 @@
 # Video Face Manipulation Detection Through Ensemble of CNNs
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-face-manipulation-detection-through/deepfake-detection-on-dfdc)](https://paperswithcode.com/sota/deepfake-detection-on-dfdc?p=video-face-manipulation-detection-through)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/video-face-manipulation-detection-through/deepfake-detection-on-faceforensics-1)](https://paperswithcode.com/sota/deepfake-detection-on-faceforensics-1?p=video-face-manipulation-detection-through)
-[![Build Status](https://travis-ci.org/polimi-ispl/icpr2020dfdc.svg?branch=master)](https://travis-ci.org/polimi-ispl/icpr2020dfdc)
-
-![](assets/faces_attention.png)
 
 Please note that we use only 32 frames per video. You can easily tweak this parameter in [extract_faces.py](extract_faces.py)
 
-### Celeb-DF (v2)
-Altough **we did not use this dataset in the paper**, we provide a script [index_celebdf.py](index_celebdf.py) to index the videos similarly to 
-DFDC and FF++. Once you have the index, you can proceed with the pipeline starting from [extract_faces.py](extract_faces.py). You can also use the 
-split `celebdf` during training/testing.
 
 ### Train
 In [train_all.sh](scripts/train_all.sh) you can find a comprehensive list of all the commands to train the models presented in the paper. 
