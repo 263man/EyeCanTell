@@ -5,10 +5,6 @@
 
 ![](assets/faces_attention.png)
 
-This is the official repository of **Video Face Manipulation Detection Through Ensemble of CNNs**,
-accepted to [ICPR2020](https://www.micc.unifi.it/icpr2020/) and currently available on [IEEExplore](https://ieeexplore.ieee.org/document/9412711) and [arXiv](https://arxiv.org/abs/2004.07676).
-
-
 Please note that we use only 32 frames per video. You can easily tweak this parameter in [extract_faces.py](extract_faces.py)
 
 ### Celeb-DF (v2)
