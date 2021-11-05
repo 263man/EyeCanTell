@@ -7,42 +7,7 @@
 
 This is the official repository of **Video Face Manipulation Detection Through Ensemble of CNNs**,
 accepted to [ICPR2020](https://www.micc.unifi.it/icpr2020/) and currently available on [IEEExplore](https://ieeexplore.ieee.org/document/9412711) and [arXiv](https://arxiv.org/abs/2004.07676).
-If you use this repository for your research, please consider citing our paper. Refer to [How to cite](https://github.com/polimi-ispl/icpr2020dfdc#how-to-cite) section to get the correct entry for your bibliography.
 
-We participated as the **ISPL** team in the [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/c/deepfake-detection-challenge/).
-With this implementation, we reached the 41st position over 2116 teams (**top 2%**) on the [private leaderboard](https://www.kaggle.com/c/deepfake-detection-challenge/leaderboard).
-
-This repository is currently under maintenance, if you are experiencing any problems, please open an [issue](https://github.com/polimi-ispl/icpr2020dfdc/issues).
-## Getting started
-
-### Prerequisites
-- Install [conda](https://docs.conda.io/en/latest/miniconda.html)
-- Create the `icpr2020` environment with *environment.yml*
-```bash
-$ conda env create -f environment.yml
-$ conda activate icpr2020
-```
-
-### Quick run
-If you just want to test the pre-trained models against your own videos or images:
-- [Video prediction notebook](https://github.com/polimi-ispl/icpr2020dfdc/blob/master/notebook/Video%20prediction.ipynb) <a target="_blank" href="https://colab.research.google.com/drive/12WnvmerHBNbJ49HdoH1lli_O8SwaFPjv?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg">
-</a>
-
-- [Image prediction notebook](https://github.com/polimi-ispl/icpr2020dfdc/blob/master/notebook/Image%20prediction.ipynb) <a target="_blank" href="https://colab.research.google.com/drive/19oVKlzEr58VZfRnSq-nW8kFYuxkh3GM8?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg">
-</a>
-
-- [Image prediction with attention](notebook/Image%20prediction%20and%20attention.ipynb) <a target="_blank" href="https://colab.research.google.com/drive/1zcglis2Qx2vtJhrogn8aKA-mbUotLZLK?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg">
-</a>
-
-### The whole pipeline
-You need to preprocess the datasets in order to index all the samples and extract faces. Just run the script [make_dataset.sh](scripts/make_dataset.sh)
-
-```bash
-$ ./scripts/make_dataset.sh
-```
 
 Please note that we use only 32 frames per video. You can easily tweak this parameter in [extract_faces.py](extract_faces.py)
 
