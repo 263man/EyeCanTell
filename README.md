@@ -32,32 +32,6 @@ Additionally, you can find Jupyter notebooks for results computations in the [no
 - [FaceForensics++](https://github.com/ondyari/FaceForensics/blob/master/dataset/README.md) | [arXiv paper](https://arxiv.org/abs/1901.08971)
 - [Celeb-DF (v2)](http://www.cs.albany.edu/~lsw/celeb-deepfakeforensics.html) | [arXiv paper](https://arxiv.org/abs/1909.12962) (**Just for reference, not used in the paper**)
 
-## References
-- [EfficientNet PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
-- [Xception PyTorch](https://github.com/tstandley/Xception-PyTorch)
-
-## How to cite
-Plain text:
-```
-N. Bonettini, E. D. Cannas, S. Mandelli, L. Bondi, P. Bestagini and S. Tubaro, "Video Face Manipulation Detection Through Ensemble of CNNs," 2020 25th International Conference on Pattern Recognition (ICPR), 2021, pp. 5012-5019, doi: 10.1109/ICPR48806.2021.9412711.
-```
-
-Bibtex:
-```bibtex
-@INPROCEEDINGS{9412711,
-  author={Bonettini, Nicolò and Cannas, Edoardo Daniele and Mandelli, Sara and Bondi, Luca and Bestagini, Paolo and Tubaro, Stefano},
-  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)}, 
-  title={Video Face Manipulation Detection Through Ensemble of CNNs}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={5012-5019},
-  doi={10.1109/ICPR48806.2021.9412711}}
 ```
 ## Credits
-[Image and Sound Processing Lab - Politecnico di Milano](http://ispl.deib.polimi.it/)
-- Nicolò Bonettini
-- Edoardo Daniele Cannas
-- Sara Mandelli
-- Luca Bondi
-- Paolo Bestagini
+Farai Kepekepe
