@@ -6,7 +6,7 @@ Video Face Manipulation Detection Through Ensemble of CNNs
 weight_url = {
 'EfficientNetAutoAttB4ST_DFDC':'https://f002.backblazeb2.com/file/icpr2020/EfficientNetAutoAttB4ST_DFDC_bestval-4df0ef7d2f380a5955affa78c35d0942ac1cd65229510353b252737775515a33.pth',
 'EfficientNetAutoAttB4ST_FFPP':'https://f002.backblazeb2.com/file/icpr2020/EfficientNetAutoAttB4ST_FFPP_bestval-ddb357503b9b902e1b925c2550415604c4252b9b9ecafeb7369dc58cc16e9edd.pth',
-'EfficientNetAutoAttB4_DFDC':'https://f002.backblazeb2.com/file/icpr2020/EfficientNetAutoAttB4_DFDC_bestval-72ed969b2a395fffe11a0d5bf0a635e7260ba2588c28683630d97ff7153389fc.pth',
+'EfficientNetAutoAttB4_DFDC':'C:\Users\Emmerencia\Documents\.4th YEAR\CMP3810 Research Project\FINAL\Pre-trained weights\files\nvidia_efficientnet-b4_210412.pth',
 'EfficientNetAutoAttB4_FFPP':'https://f002.backblazeb2.com/file/icpr2020/EfficientNetAutoAttB4_FFPP_bestval-b0c9e9522a7143cf119843e910234be5e30f77dc527b1b427cdffa5ce3bdbc25.pth',
 'EfficientNetB4ST_DFDC':'https://f002.backblazeb2.com/file/icpr2020/EfficientNetB4ST_DFDC_bestval-86f0a0701b18694dfb5e7837bd09fa8e48a5146c193227edccf59f1b038181c6.pth',
 'EfficientNetB4ST_FFPP':'https://f002.backblazeb2.com/file/icpr2020/EfficientNetB4ST_FFPP_bestval-ccd016668071be5bf5fff68e446d055441739ec7113fb1a6eee998f08396ae92.pth',
